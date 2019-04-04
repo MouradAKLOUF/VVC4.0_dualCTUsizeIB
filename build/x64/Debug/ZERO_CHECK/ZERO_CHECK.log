@@ -1,0 +1,13 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/Lib/CommonLib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/Lib/CommonAnalyserLib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/Lib/DecoderAnalyserLib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/Lib/DecoderLib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/Lib/EncoderLib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/Lib/Utilities/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/App/DecoderAnalyserApp/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/App/DecoderApp/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/App/EncoderApp/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/App/SEIRemovalApp/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/maklouf/Desktop/second-attempt/build/source/App/Parcat/CMakeFiles/generate.stamp is up-to-date.

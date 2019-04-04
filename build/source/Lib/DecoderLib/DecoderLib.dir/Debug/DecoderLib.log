@@ -1,0 +1,10 @@
+﻿  AnnexBread.cpp
+  BinDecoder.cpp
+  CABACReader.cpp
+  DecCu.cpp
+  DecLib.cpp
+  DecSlice.cpp
+  NALread.cpp
+  SEIread.cpp
+  VLCReader.cpp
+  DecoderLib.vcxproj -> C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\debug\DecoderLib.lib

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\AnnexBread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\BinDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\CABACReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\DecCu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\DecLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\DecSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\NALread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\SEIread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\VLCReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\AnnexBread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\BinDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\CABACReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\DecCu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\DecLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\DecSlice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\NALread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\SEIread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\VLCReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\VisualStudio\common.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+    <Natvis Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\VisualStudio\static_vector.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D3325FDC-0EB9-3493-8C5B-D555DE327104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Natvis Files">
+      <UniqueIdentifier>{B2EB8E16-ABFC-3A86-A590-364030D6B9D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6742FC9-0AFB-382F-9A7D-8102D9916A98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

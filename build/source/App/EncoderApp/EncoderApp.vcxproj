@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{523CBD45-5285-36E4-83B7-61BAA7064437}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>EncoderApp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\bin\vs15\msvc-19.13\x86_64\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EncoderApp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\bin\vs15\msvc-19.13\x86_64\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EncoderApp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\bin\vs15\msvc-19.13\x86_64\minsizerel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EncoderApp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\bin\vs15\msvc-19.13\x86_64\relwithdebinfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EncoderApp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\debug\CommonLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\debug\EncoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\debug\DecoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\debug\Utilities.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\debug\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/lib/vs15/msvc-19.13/x86_64/debug/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/bin/vs15/msvc-19.13/x86_64/debug/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\release\CommonLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\release\EncoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\release\DecoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\release\Utilities.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\release\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/lib/vs15/msvc-19.13/x86_64/release/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/bin/vs15/msvc-19.13/x86_64/release/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\minsizerel\CommonLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\minsizerel\EncoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\minsizerel\DecoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\minsizerel\Utilities.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\minsizerel\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/lib/vs15/msvc-19.13/x86_64/minsizerel/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/bin/vs15/msvc-19.13/x86_64/minsizerel/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\.\x86;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\CommonLib\..\libmd5;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\EncoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\DecoderLib\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\.;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\relwithdebinfo\CommonLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\relwithdebinfo\EncoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\relwithdebinfo\DecoderLib.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\relwithdebinfo\Utilities.lib;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\lib\vs15\msvc-19.13\x86_64\relwithdebinfo\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/lib/vs15/msvc-19.13/x86_64/relwithdebinfo/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/bin/vs15/msvc-19.13/x86_64/relwithdebinfo/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master -BC:/Users/maklouf/Desktop/second-attempt/build --check-stamp-file C:/Users/maklouf/Desktop/second-attempt/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master -BC:/Users/maklouf/Desktop/second-attempt/build --check-stamp-file C:/Users/maklouf/Desktop/second-attempt/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master -BC:/Users/maklouf/Desktop/second-attempt/build --check-stamp-file C:/Users/maklouf/Desktop/second-attempt/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master -BC:/Users/maklouf/Desktop/second-attempt/build --check-stamp-file C:/Users/maklouf/Desktop/second-attempt/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/maklouf/Desktop/second-attempt/VVCSoftware_VTM-master/source/App/EncoderApp/CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\maklouf\Desktop\second-attempt\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\EncApp.cpp" />
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\EncAppCfg.cpp" />
+    <ClCompile Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\encmain.cpp" />
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\EncApp.h" />
+    <ClInclude Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\App\EncoderApp\EncAppCfg.h" />
+    <Natvis Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\VisualStudio\common.natvis" />
+    <Natvis Include="C:\Users\maklouf\Desktop\second-attempt\VVCSoftware_VTM-master\source\VisualStudio\static_vector.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\maklouf\Desktop\second-attempt\build\ZERO_CHECK.vcxproj">
+      <Project>{2AA9BCC3-FD7B-3882-B00F-67CC06F1FA61}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\maklouf\Desktop\second-attempt\build\source\Lib\CommonLib\CommonLib.vcxproj">
+      <Project>{4BE05259-90FE-314B-AB8D-12B4A49EEEE4}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\maklouf\Desktop\second-attempt\build\source\Lib\DecoderLib\DecoderLib.vcxproj">
+      <Project>{99084649-B21E-3D0B-ADDF-0A12532B7504}</Project>
+      <Name>DecoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\maklouf\Desktop\second-attempt\build\source\Lib\EncoderLib\EncoderLib.vcxproj">
+      <Project>{69F2831C-5C12-3EBC-A57E-17C61F4538B0}</Project>
+      <Name>EncoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\maklouf\Desktop\second-attempt\build\source\Lib\Utilities\Utilities.vcxproj">
+      <Project>{28366C28-813A-3343-A66B-91070DF5E288}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
